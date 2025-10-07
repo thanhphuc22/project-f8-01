@@ -52,7 +52,7 @@ a{
 .hero-wrap{
     position: relative;
     background: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 .navbar{
     display: flex;
@@ -121,8 +121,8 @@ a{
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
-    width: 534px;
-    height: 569px;
+    width: 484px;
+    height: 519px;
 }
 /* --------------------Clients-------------------- */
 .clients{
