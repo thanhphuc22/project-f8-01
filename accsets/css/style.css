@@ -133,10 +133,20 @@ a{
     line-height: 20px; /* 125% */
 }
 .clients .images{
-    margin-top: 96px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.clients .images a{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+}
+.clients .images a:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
 }
 /* --------------------Guides-------------------- */
 .guides{
